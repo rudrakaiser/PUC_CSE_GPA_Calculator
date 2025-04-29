@@ -20,7 +20,7 @@ A web-based CGPA calculator designed for the **Computer Science and Engineering 
 <img src="assets/sem_page.jpg" height="250px" alt="Semester SelectionSemester Selection">
 
 ### 📘 1st Semester CGPA Calculator
-<img src="assets/cgpa_cal_page.png" height="343px" alt="1st Semester CGPA Page">
+<img src="assets/cgpa_cal_page.png" height="345px" alt="1st Semester CGPA Page">
 
 ---
 
