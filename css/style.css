@@ -100,6 +100,65 @@ body {
     }
 }
 
+/*------------------------------------------------------------------*/
+
+.front_link {
+    color: #28a745;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.front_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div,h1{
+        text-align: left;
+        padding-right: 10px;
+    }
+}
+
+.front_heading {
+    text-align: left;
+    margin-bottom: 30px;
+    span{
+        color: #28a745;
+    }
+}
+
+.logo_icon {
+    height: 75px;
+}
+
+.course-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.course-list td {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.course-list th{
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.front_dis {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* ------------------------ RESPONSIVE CSS ------------------------ */
 
 @media only screen and (max-width: 768px) {
@@ -143,5 +202,68 @@ body {
         span{
             color: #218e3a;
         }
+    }
+
+    /* --------------------------------------------- */
+
+    .front_link {
+        color: #28a745;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    .front_head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div,h1{
+            text-align: left;
+            padding-right: 10px;
+            font-size: 20px;
+        }
+    }
+    
+    .front_heading {
+        text-align: left;
+        margin-bottom: 20px;
+        span{
+            color: #28a745;
+        }
+    }
+    
+    .logo_icon {
+        height: 45px;
+    }
+    
+    .course-list {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .course-list td {
+        border: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: center;
+        a{
+            font-size: 20px;
+        }
+    
+    }
+    
+    .course-list th{
+        border: 1px solid #ddd;
+        padding: 15px 20px;
+        font-size: 20px;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+    
+    .front_dis {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }

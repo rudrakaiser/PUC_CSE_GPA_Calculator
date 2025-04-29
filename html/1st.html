@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/fav-icon.png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">PUC 1<sup>st</sup> Semester <span>CGPA Calculator</span></h1>
+        <table class="course-table">
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Credit</th>
+                    <th>Number (0 - 100)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Functional Bangla Language</td>
+                    <td>2.00</td>
+                    <td><input type="number" id="fbl" placeholder="FBL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Computer Fundamentals and Ethics</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="cfe" placeholder="CFE number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Programming Fundamentals</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="pf" placeholder="PF number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Programming Fundamentals Laboratory</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="pfl" placeholder="PFL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Introduction to Electrical Engineering</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="iee" placeholder="IEE number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Introduction to Electrical Engineering Laboratory</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="ieel" placeholder="IEEL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>General English</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="ge" placeholder="GE number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Differential and Integral Calculus</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="dic" placeholder="DIC number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Mechanical Engineering Drawing</td>
+                    <td>0.75</td>
+                    <td><input type="number" id="med" placeholder="MED number" class="input-field" min="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="submit-button" onclick="calculateGPA()">Calculate</button>
+        <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Rudra Kaiser</a></p>
+    </footer>
+
+    <script src="../js/1st.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/fav-icon.png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">PUC 2<sup>nd</sup> Semester <span>CGPA Calculator</span></h1>
+        <table class="course-table">
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Credit</th>
+                    <th>Number (0 - 100)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Electronic Devices & Circuits</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="edc" placeholder="EDC number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Electronic Devices & Circuits Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="edcl" placeholder="EDCL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Data Structures</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="ds" placeholder="DS number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Data Structures Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="dsl" placeholder="DSL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Discrete Mathematics & Number Theory</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="dmnt" placeholder="DMNT number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Engineering Economics</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="ee" placeholder="EE number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Introduction to Classical & Modern Physics</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="icmp" placeholder="ICMP number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Physics Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="phy" placeholder="PHY number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Competitive Programming Lab</td>
+                    <td>0.75</td>
+                    <td><input type="number" id="cpl" placeholder="CPL number" class="input-field" min="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="submit-button" onclick="calculateGPA()">Calculate</button>
+        <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Rudra Kaiser</a></p>
+    </footer>
+
+    <script src="../js/2nd.js"></script>
+</body>
+</html>
