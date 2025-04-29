@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/fav-icon.png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">PUC 3<sup>rd</sup> Semester <span>CGPA Calculator</span></h1>
+        <table class="course-table">
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Credit</th>
+                    <th>Number (0 - 100)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Digital Electronics & Pulse Technique</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="dept" placeholder="DEPT number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Digital Electronics & Pulse Technique Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="deptl" placeholder="DEPTL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Object‑Oriented Programming</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="oop" placeholder="OOP number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Object‑Oriented Programming Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="oopl" placeholder="OOPL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Coordinate Geometry & Vector Analysis</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="cgva" placeholder="CGVA number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Bangladesh Studies</td>
+                    <td>2.00</td>
+                    <td><input type="number" id="bs" placeholder="BS number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Internet Programming Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="ipl" placeholder="IPL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Communicative English Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="cel" placeholder="CEL number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Numerical Methods Lab</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="nml" placeholder="NML number" class="input-field" min="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="submit-button" onclick="calculateGPA()">Calculate</button>
+        <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Rudra Kaiser</a></p>
+    </footer>
+
+    <script src="../js/3rd.js"></script>
+</body>
+</html>
