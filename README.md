@@ -1,6 +1,6 @@
 # 📊 PUC CSE CGPA Calculator
 
-A web-based CGPA calculator designed for the **Computer Science and Engineering Department** of **Premier University, Chittagong (PUC)**. This tool allows students to quickly calculate their CGPA semester by semester with ease and accuracy.
+A web-based CGPA calculator designed for the **Computer Science and Engineering Department** of **[Premier University, Chittagong (PUC)](https://cse.puc.ac.bd/)**. This tool allows students to quickly calculate their CGPA semester by semester with ease and accuracy.
 
 ---
 
