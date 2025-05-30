@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGPA Calculator - 6th Semester</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../assets/fav-icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">
+        PUC 6<sup>th</sup> Semester <span>CGPA Calculator</span>
+      </h1>
+      <table class="course-table">
+        <thead>
+          <tr>
+            <th>Course Title</th>
+            <th>Credit</th>
+            <th>Number (0 - 100)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Software Development Project</td>
+            <td>2.00</td>
+            <td>
+              <input
+                type="number"
+                id="sdp"
+                placeholder="SDP number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Software Engineering</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="se"
+                placeholder="SE number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Software Engineering Laboratory</td>
+            <td>0.75</td>
+            <td>
+              <input
+                type="number"
+                id="selab"
+                placeholder="SE Lab number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Computer Networks</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="cn"
+                placeholder="CN number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Computer Networks Laboratory</td>
+            <td>1.50</td>
+            <td>
+              <input
+                type="number"
+                id="cnlab"
+                placeholder="CN Lab number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Computer and Cyber Security</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="ccs"
+                placeholder="CCS number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Data Communication</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="dc"
+                placeholder="DC number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>GED Option II</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="ged2"
+                placeholder="GED Opt II number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit" class="submit-button" onclick="calculateGPA()">
+        Calculate
+      </button>
+      <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Developed by
+        <a
+          href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+          target="_blank"
+          >Rudra Kaiser</a
+        >
+      </p>
+    </footer>
+
+    <script src="../js/6th.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGPA Calculator - 8th Semester</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../assets/fav-icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">
+        PUC 8<sup>th</sup> Semester <span>CGPA Calculator</span>
+      </h1>
+      <table class="course-table">
+        <thead>
+          <tr>
+            <th>Course Title</th>
+            <th>Credit</th>
+            <th>Number (0 - 100)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Final Year Design Project</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="fyp_b"
+                placeholder="FYDP B number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Industrial Attachment / Internship / Professional Training</td>
+            <td>0.75</td>
+            <td>
+              <input
+                type="number"
+                id="internship"
+                placeholder="Internship number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Major III</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="elecmaj3"
+                placeholder="Elective Major III num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>GED Option III</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="ged3"
+                placeholder="GED Option III num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Minor II</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="elecmin2"
+                placeholder="Elective Minor II num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Minor II Laboratory</td>
+            <td>1.50</td>
+            <td>
+              <input
+                type="number"
+                id="elecmin2lab"
+                placeholder="Elective Minor II Lab num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit" class="submit-button" onclick="calculateGPA()">
+        Calculate
+      </button>
+      <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Developed by
+        <a
+          href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+          target="_blank"
+          >Rudra Kaiser</a
+        >
+      </p>
+    </footer>
+
+    <script src="../js/8th.js"></script>
+  </body>
+</html>

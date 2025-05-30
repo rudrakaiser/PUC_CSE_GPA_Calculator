@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator - 4th Semester</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/fav-icon.png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">PUC 4<sup>th</sup> Semester <span>CGPA Calculator</span></h1>
+        <table class="course-table">
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Credit</th>
+                    <th>Number (0 - 100)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Algorithms</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="algo" placeholder="Algorithms number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Algorithms Laboratory</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="algolab" placeholder="Algorithms Lab number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Matrix, Linear Algebra, Differential Equation</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="mlade" placeholder="MLADE number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Biology for Engineers</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="bioeng" placeholder="Biology number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Database Management Systems</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="dbms" placeholder="DBMS number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Database Management Systems Laboratory</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="dbmslab" placeholder="DBMS Lab number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Microprocessors & Microcontrollers</td>
+                    <td>3.00</td>
+                    <td><input type="number" id="micro" placeholder="Microprocessors number" class="input-field" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Microprocessors & Microcontrollers Laboratory</td>
+                    <td>1.50</td>
+                    <td><input type="number" id="microlab" placeholder="Microprocessors Lab number" class="input-field" min="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="submit-button" onclick="calculateGPA()">Calculate</button>
+        <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Rudra Kaiser</a></p>
+    </footer>
+
+    <script src="../js/4th.js"></script>
+</body>
+</html>
