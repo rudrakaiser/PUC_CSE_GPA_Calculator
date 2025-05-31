@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGPA Calculator - 7th Semester</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../assets/fav-icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">
+        PUC 7<sup>th</sup> Semester <span>CGPA Calculator</span>
+      </h1>
+      <table class="course-table">
+        <thead>
+          <tr>
+            <th>Course Title</th>
+            <th>Credit</th>
+            <th>Number (0 - 100)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Final Year Design Project</td>
+            <td>1.00</td>
+            <td>
+              <input
+                type="number"
+                id="fyp_a"
+                placeholder="FYDP A number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Major I</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="elecmaj1"
+                placeholder="Elective Major I num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Major I Laboratory</td>
+            <td>1.50</td>
+            <td>
+              <input
+                type="number"
+                id="elecmaj1lab"
+                placeholder="Elective Major I Lab num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Major II</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="elecmaj2"
+                placeholder="Elective Major II num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Major II Laboratory</td>
+            <td>1.50</td>
+            <td>
+              <input
+                type="number"
+                id="elecmaj2lab"
+                placeholder="Elective Major II Lab num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Theory of Computation</td>
+            <td>2.00</td>
+            <td>
+              <input
+                type="number"
+                id="toc"
+                placeholder="TOC number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Technical Writing and Presentation</td>
+            <td>1.50</td>
+            <td>
+              <input
+                type="number"
+                id="twp"
+                placeholder="TWP number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Society, Engineering Ethics and Environmental Protection</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="seep"
+                placeholder="SEEP number"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Minor I</td>
+            <td>3.00</td>
+            <td>
+              <input
+                type="number"
+                id="elecmin1"
+                placeholder="Elective Minor I num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Elective: Minor I Laboratory</td>
+            <td>1.50</td>
+            <td>
+              <input
+                type="number"
+                id="elecmin1lab"
+                placeholder="Elective Minor I Lab num"
+                class="input-field"
+                min="0"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit" class="submit-button" onclick="calculateGPA()">
+        Calculate
+      </button>
+      <p id="result" class="result-text"></p>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Developed by
+        <a
+          href="https://www.linkedin.com/in/rudra-kaiser-931b5b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+          target="_blank"
+          >Rudra Kaiser</a
+        >
+      </p>
+    </footer>
+
+    <script src="../js/7th.js"></script>
+  </body>
+</html>
