@@ -8,7 +8,7 @@ A web-based GPA calculator designed for the **Computer Science and Engineering D
 
 - 🧮 Calculate GPA for all 8 semesters
 - 📚 Pre-loaded with subjects and credit values for each semester
-- 🔢 Enter your marks (0–100), and it calculates GPA per subject and overall CGPA
+- 🔢 Enter your marks (0–100), and it calculates GPA per subject and overall GPA
 - 🎨 Clean and responsive UI
 - ⚡ Fast and lightweight
 
