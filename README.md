@@ -36,7 +36,7 @@ A web-based GPA calculator designed for the **Computer Science and Engineering D
 
 - ### Process 1
 
-   - **[Click Here](https://rudra-404.github.io/PUC_CSE_CGPA_Calculator/)** and go to the live site.
+   - **[Click Here](https://puc-gpa-calculator.netlify.app/)** and go to the live site.
 
 - ### Process 2
 
